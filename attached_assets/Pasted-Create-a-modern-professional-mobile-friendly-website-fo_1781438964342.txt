@@ -1,0 +1,146 @@
+Create a modern, professional, mobile-friendly website for a Hindu Vedic priest brand called "VedSarathi".
+
+Website Purpose:
+Generate puja bookings, showcase Vedic services, build trust, and connect devotees with an experienced Pandit having 20+ years of experience in performing Hindu rituals and ceremonies.
+
+Design Requirements:
+
+* Clean spiritual design
+* Premium and trustworthy appearance
+* Traditional Indian aesthetics with modern UI
+* Colors: Saffron, Gold, White, and Deep Maroon
+* Fully responsive for mobile, tablet, and desktop
+* Fast loading and SEO optimized
+* WhatsApp Booking button visible on every page
+* Smooth animations and modern layout
+
+Pages:
+
+1. Home Page
+   Hero Section:
+
+* Brand Name: VedSarathi
+* Tagline: "The Essence of the Vedas, The Foundation of Life"
+* Headline: "Authentic Vedic Rituals & Spiritual Guidance"
+* Subheadline: "20+ Years of Experience in Hindu Rituals, Weddings, Griha Pravesh, Namkaran, Havan, and Vedic Ceremonies"
+* Call-to-Action Buttons:
+
+  * Book a Puja
+  * Contact on WhatsApp
+
+Include:
+
+* Hero image of a Hindu Pandit performing rituals
+* Trust section
+* 20+ Years Experience badge
+* Service highlights
+* Client testimonials
+* Featured YouTube videos
+* Contact form
+
+2. About Page
+   Include:
+
+* Introduction of Pandit Ji
+* 20+ years of experience
+* Expertise in Vedic rituals and Sanatan Dharma
+* Mission to preserve and promote Vedic traditions
+* Professional profile section
+* Spiritual values and commitment
+
+3. Services Page
+
+Create separate service cards for:
+
+* Vivah Sanskar (Wedding Ceremony)
+* Namkaran Sanskar
+* Griha Pravesh Puja
+* Vastu Puja
+* Satyanarayan Katha
+* Havan & Yagya
+* Mundan Sanskar
+* Festival Pujas
+* Religious Consultations
+* Muhurat Guidance
+
+Each service should contain:
+
+* Description
+* Benefits
+* Booking button
+
+4. Gallery Page
+   Display:
+
+* Wedding ceremonies
+* Havan and Yagya
+* Griha Pravesh ceremonies
+* Namkaran ceremonies
+* Religious events
+* Temple and spiritual images
+
+Use a modern image gallery with lightbox effect.
+
+5. Testimonials Page
+   Include:
+
+* Client reviews
+* Star ratings
+* Success stories
+* Trust indicators
+
+6. YouTube Page
+   Show:
+
+* Embedded VedSarathi YouTube channel
+* Latest videos
+* Subscribe button
+* Video categories
+
+7. Blog Page
+   Create SEO-friendly blog layout.
+
+Suggested Articles:
+
+* Importance of Griha Pravesh Puja
+* Hindu Wedding Rituals Explained
+* Namkaran Sanskar Guide
+* Benefits of Havan
+* Satyanarayan Katha Significance
+* Vastu Tips for New Homes
+* Sanatan Dharma Teachings
+
+8. Contact Page
+   Include:
+
+* Contact form
+* Phone number
+* WhatsApp button
+* Email
+* Service area
+* Google Maps integration
+* Quick booking section
+
+Additional Features:
+
+* WhatsApp floating button
+* Call Now button
+* Sticky navigation
+* FAQ section
+* SEO optimization
+* Google Analytics integration
+* Social media links
+* Secure contact forms
+* Fast performance
+
+Footer:
+
+* VedSarathi logo
+* Quick links
+* Services list
+* Contact details
+* Social media icons
+* Copyright section
+
+Goal:
+Create a professional spiritual website that builds trust, attracts devotees, generates puja bookings, promotes the VedSarathi YouTube channel, and establishes VedSarathi as a respected Vedic service brand.
