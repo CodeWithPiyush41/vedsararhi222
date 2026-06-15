@@ -16,17 +16,14 @@ export function Footer() {
               Preserving Vedic Traditions Since 2004. Authentic Hindu rituals, spiritual guidance, and ceremonies performed with devotion and purity.
             </p>
             <div className="flex items-center gap-4 mt-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.facebook.com/share/1A78AKJiN1/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-blue-600 transition-colors">
                 <FaFacebook size={24} />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.instagram.com/vedsarathi?igsh=aWU2MmxhNjczM2o0" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-pink-600 transition-colors">
                 <FaInstagram size={24} />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://youtube.com/@VedSarathi" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-red-600 transition-colors">
                 <FaYoutube size={24} />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <FaTwitter size={24} />
               </a>
             </div>
           </div>
@@ -70,7 +67,7 @@ export function Footer() {
               <MapPin className="w-5 h-5 text-primary shrink-0 mt-0.5" />
               <div>
                 <p>Pan India Service</p>
-                <p className="text-sm opacity-80">Based in New Delhi</p>
+                <p className="text-sm opacity-80">Based in Kolkata, West Bengal</p>
               </div>
             </div>
           </div>

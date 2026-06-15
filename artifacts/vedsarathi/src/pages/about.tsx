@@ -60,15 +60,15 @@ export default function About() {
             >
               <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl max-w-md mx-auto">
                 <img
-                  src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80"
-                  alt="Pandit Ji — Vedic Priest"
-                  className="object-cover w-full h-full"
+                  src="/panditji.jpeg"
+                  alt="Pandit Ramgopal Ji — Vedic Priest"
+                  className="object-cover w-full h-full object-top"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                  <h3 className="text-2xl font-serif font-bold">Pandit Shri Ramesh Sharma Ji</h3>
+                  <h3 className="text-2xl font-serif font-bold">Pandit Ramgopal Ji</h3>
                   <p className="text-white/80 mt-1">Vedic Scholar & Spiritual Guide</p>
-                  <p className="text-primary font-semibold mt-1">20+ Years of Sacred Service</p>
+                  <p className="text-primary font-semibold mt-1">Kolkata, West Bengal</p>
                 </div>
               </div>
               <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground rounded-2xl p-5 shadow-xl hidden md:block">
@@ -88,13 +88,13 @@ export default function About() {
                 Devoted to Sanatan Dharma for Over Two Decades
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed mb-5">
-                Pandit Shri Ramesh Sharma Ji was born into a lineage of Vedic scholars in Varanasi, the spiritual capital of India. From a young age, he devoted himself to the study of Sanskrit, the Vedas, the Puranas, and traditional Vedic ritual practices under the tutelage of renowned Acharyas.
+                Pandit Ramgopal Ji is a revered Vedic priest and spiritual guide based in Kolkata, West Bengal. Born into a lineage of devoted scholars, he dedicated himself from a young age to the deep study of Sanskrit, the Vedas, the Puranas, and traditional Vedic ritual practices under the guidance of learned Acharyas.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed mb-5">
-                With more than 20 years of dedicated practice, he has performed hundreds of sacred ceremonies — from intimate home pujas to grand wedding celebrations — across India. His approach blends ancient accuracy with compassionate guidance, ensuring every devotee understands the meaning and significance of each ritual.
+                With more than 20 years of dedicated practice across Kolkata and all of India, Pandit Ji has performed hundreds of sacred ceremonies — from intimate home pujas to grand wedding celebrations. His approach blends ancient accuracy with compassionate guidance, ensuring every devotee understands the meaning and significance of each ritual.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                Pandit Ji believes that performing rituals correctly is an act of love — love for the divine, love for one's ancestors, and love for future generations. This philosophy is the heart of VedSarathi.
+                Pandit Ramgopal Ji believes that performing rituals correctly is an act of love — love for the divine, love for one's ancestors, and love for future generations. This philosophy is the heart of VedSarathi.
               </p>
               <Link href="/contact">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">

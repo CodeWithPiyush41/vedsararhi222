@@ -98,11 +98,11 @@ export default function Home() {
         <div className="container px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative aspect-[4/5] rounded-lg overflow-hidden shadow-2xl">
-              <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80" alt="Pandit Ji performing puja" className="object-cover w-full h-full" />
+              <img src="/panditji.jpeg" alt="Pandit Ramgopal Ji — Vedic Priest" className="object-cover w-full h-full object-top" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
               <div className="absolute bottom-6 left-6 right-6 text-white">
-                <h3 className="text-2xl font-serif font-bold mb-2">Pandit Ji</h3>
-                <p className="text-white/90">Vedic Scholar & Priest</p>
+                <h3 className="text-2xl font-serif font-bold mb-2">Pandit Ramgopal Ji</h3>
+                <p className="text-white/90">Vedic Scholar & Priest · Kolkata</p>
               </div>
             </div>
             <div>
