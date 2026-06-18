@@ -59,8 +59,8 @@ const galleryImages = [
     category: "Havan",
   },
   {
-    src: "/havan-wedding-ritual.jpeg",
-    alt: "Havan during Wedding — Sacred Fire Ritual with Family",
+    src: "/baba-shyam-kirtan-havan.jpeg",
+    alt: "Baba Shyam Kirtan Havan — Sacred Kirtan Fire Ritual",
     category: "Havan",
   },
 ];
