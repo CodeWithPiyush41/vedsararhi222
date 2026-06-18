@@ -39,6 +39,16 @@ const galleryImages = [
     category: "Katha",
   },
   {
+    src: "/bhagwat-katha-1.jpeg",
+    alt: "Bhagwat Katha — Devotees Receiving Blessings during Katha",
+    category: "Katha",
+  },
+  {
+    src: "/bhagwat-katha-2.jpeg",
+    alt: "Bhagwat Katha — Pandit Ramgopal Ji Reciting Sacred Stories",
+    category: "Katha",
+  },
+  {
     src: "/havan-fire-ritual.jpeg",
     alt: "Pandit Ramgopal Ji conducting Havan — Sacred Fire Ritual",
     category: "Havan",
