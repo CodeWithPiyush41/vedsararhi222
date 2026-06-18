@@ -78,9 +78,14 @@ const galleryImages = [
     alt: "Namkaran — Sacred Naming Ceremony by Pandit Ramgopal Ji",
     category: "Namkaran",
   },
+  {
+    src: "/griha-pravesh.jpeg",
+    alt: "Griha Pravesh — Home Blessing Ceremony with Decorated Altar",
+    category: "Griha Pravesh",
+  },
 ];
 
-const categories = ["All", "Puja", "Wedding", "Katha", "Havan", "Namkaran"];
+const categories = ["All", "Puja", "Wedding", "Katha", "Havan", "Namkaran", "Griha Pravesh"];
 
 export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
