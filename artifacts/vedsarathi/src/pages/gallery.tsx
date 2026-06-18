@@ -15,8 +15,8 @@ const galleryImages = [
   },
   {
     src: "/vivah-havan.jpeg",
-    alt: "Vivah Havan — Sacred Fire Ritual during Wedding Ceremony",
-    category: "Wedding",
+    alt: "Chaturmas Havan — Sacred Fire Ritual by Pandit Ramgopal Ji",
+    category: "Havan",
   },
   {
     src: "/satyanarayan-katha.jpeg",
