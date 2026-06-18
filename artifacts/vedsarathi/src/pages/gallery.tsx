@@ -14,6 +14,11 @@ const galleryImages = [
     category: "Puja",
   },
   {
+    src: "/shravani-upakarma.jpeg",
+    alt: "Shravani Upakarma — Vedic Sacred Thread Renewal Ceremony",
+    category: "Puja",
+  },
+  {
     src: "/vivah-havan.jpeg",
     alt: "Chaturmas Havan — Sacred Fire Ritual by Pandit Ramgopal Ji",
     category: "Havan",
