@@ -4,6 +4,11 @@ import { X, ZoomIn } from "lucide-react";
 
 const galleryImages = [
   {
+    src: "/panditji-temple-puja.jpeg",
+    alt: "Pandit Ramgopal Ji performing Puja at Temple",
+    category: "Puja",
+  },
+  {
     src: "/satyanarayan-katha.jpeg",
     alt: "Satyanarayan Katha — Live Ceremony by Pandit Ramgopal Ji",
     category: "Katha",
