@@ -9,6 +9,11 @@ const galleryImages = [
     category: "Puja",
   },
   {
+    src: "/ganesh-pujan.jpeg",
+    alt: "Ganesh Pujan — Sacred Worship with Modak Offerings",
+    category: "Puja",
+  },
+  {
     src: "/vivah-havan.jpeg",
     alt: "Vivah Havan — Sacred Fire Ritual during Wedding Ceremony",
     category: "Wedding",
