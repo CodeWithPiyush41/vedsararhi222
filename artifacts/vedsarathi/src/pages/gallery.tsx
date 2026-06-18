@@ -18,69 +18,9 @@ const galleryImages = [
     alt: "Satyanarayan Katha — Live Ceremony by Pandit Ramgopal Ji",
     category: "Katha",
   },
-  {
-    src: "https://images.unsplash.com/photo-1583089892943-e02e5b017b6a?auto=format&fit=crop&q=80&w=800",
-    alt: "Vivah Sanskar — Sacred Wedding Ceremony",
-    category: "Wedding",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1605371924599-2d0365da26f5?auto=format&fit=crop&q=80&w=800",
-    alt: "Griha Pravesh — Home Blessing Ceremony",
-    category: "Griha Pravesh",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1584286595398-a59c3f9a1f0c?auto=format&fit=crop&q=80&w=800",
-    alt: "Havan — Sacred Fire Ritual",
-    category: "Havan",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=800",
-    alt: "Temple Puja — Sacred Offerings",
-    category: "Puja",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1620000617482-821324eb9a14?auto=format&fit=crop&q=80&w=800",
-    alt: "Vedic Ritual Ceremony",
-    category: "Ceremony",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1603525167098-b80c6c70b809?auto=format&fit=crop&q=80&w=800",
-    alt: "Satyanarayan Katha",
-    category: "Katha",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1519817650390-64a9db67cf0f?auto=format&fit=crop&q=80&w=800",
-    alt: "Namkaran — Naming Ceremony",
-    category: "Namkaran",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=800",
-    alt: "Spiritual Guidance Session",
-    category: "Consultation",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?auto=format&fit=crop&q=80&w=800",
-    alt: "Festival Puja — Diwali Celebration",
-    category: "Festival",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1584646098378-0e16a85ac7bd?auto=format&fit=crop&q=80&w=800",
-    alt: "Puja Thali — Sacred Offerings",
-    category: "Puja",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1568572933382-74d440642117?auto=format&fit=crop&q=80&w=800",
-    alt: "Yagya — Vedic Fire Sacrifice",
-    category: "Havan",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1561625116-a57f7e6e02e3?auto=format&fit=crop&q=80&w=800",
-    alt: "Vedic Pandit Performing Rituals",
-    category: "Ceremony",
-  },
 ];
 
-const categories = ["All", "Wedding", "Havan", "Griha Pravesh", "Puja", "Namkaran", "Ceremony", "Festival", "Katha", "Consultation"];
+const categories = ["All", "Puja", "Wedding", "Katha"];
 
 export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
