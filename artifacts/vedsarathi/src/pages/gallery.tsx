@@ -18,9 +18,24 @@ const galleryImages = [
     alt: "Satyanarayan Katha — Live Ceremony by Pandit Ramgopal Ji",
     category: "Katha",
   },
+  {
+    src: "/havan-fire-ritual.jpeg",
+    alt: "Pandit Ramgopal Ji conducting Havan — Sacred Fire Ritual",
+    category: "Havan",
+  },
+  {
+    src: "/havan-community.jpeg",
+    alt: "Community Havan — Vedic Fire Ceremony with Devotees",
+    category: "Havan",
+  },
+  {
+    src: "/havan-wedding-ritual.jpeg",
+    alt: "Havan during Wedding — Sacred Fire Ritual with Family",
+    category: "Havan",
+  },
 ];
 
-const categories = ["All", "Puja", "Wedding", "Katha"];
+const categories = ["All", "Puja", "Wedding", "Katha", "Havan"];
 
 export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
