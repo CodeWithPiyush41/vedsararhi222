@@ -29,7 +29,8 @@ const services = [
     title: "Satyanarayan Katha",
     desc: "A powerful puja dedicated to Lord Vishnu to express gratitude, seek blessings for success, and overcome obstacles in life.",
     benefits: ["Removal of obstacles", "Fulfillment of desires", "Family harmony", "Spiritual upliftment"],
-    icon: "📖"
+    icon: "📖",
+    image: "/satyanarayan-katha.jpeg",
   },
   {
     id: "havan",
@@ -92,7 +93,20 @@ export default function Services() {
       <section className="container px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {services.map((service) => (
-            <Card key={service.id} className="group hover:shadow-lg transition-shadow duration-300 border-border">
+            <Card key={service.id} className="group hover:shadow-lg transition-shadow duration-300 border-border overflow-hidden">
+              {"image" in service && service.image && (
+                <div className="relative h-52 overflow-hidden">
+                  <img
+                    src={(service as typeof service & { image: string }).image}
+                    alt={service.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+                  <span className="absolute bottom-3 left-4 text-white font-serif font-bold text-lg drop-shadow">
+                    {service.title}
+                  </span>
+                </div>
+              )}
               <CardContent className="p-8">
                 <div className="flex items-start gap-4 mb-4">
                   <div className="text-4xl">{service.icon}</div>

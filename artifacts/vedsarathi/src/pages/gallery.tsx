@@ -4,6 +4,11 @@ import { X, ZoomIn } from "lucide-react";
 
 const galleryImages = [
   {
+    src: "/satyanarayan-katha.jpeg",
+    alt: "Satyanarayan Katha — Live Ceremony by Pandit Ramgopal Ji",
+    category: "Katha",
+  },
+  {
     src: "https://images.unsplash.com/photo-1583089892943-e02e5b017b6a?auto=format&fit=crop&q=80&w=800",
     alt: "Vivah Sanskar — Sacred Wedding Ceremony",
     category: "Wedding",
