@@ -83,6 +83,16 @@ const galleryImages = [
     alt: "Griha Pravesh — Home Blessing Ceremony with Decorated Altar",
     category: "Griha Pravesh",
   },
+  {
+    src: "/wedding-ceremony-1.jpeg",
+    alt: "Vivah Sanskar — Sacred Wedding Ceremony with Saptapadi Rituals",
+    category: "Wedding",
+  },
+  {
+    src: "/wedding-ceremony-2.jpeg",
+    alt: "Vivah Ceremoy — Bride and Groom Performing Vedic Wedding Rituals",
+    category: "Wedding",
+  },
 ];
 
 const categories = ["All", "Puja", "Wedding", "Katha", "Havan", "Namkaran", "Griha Pravesh"];
