@@ -49,6 +49,11 @@ const galleryImages = [
     category: "Katha",
   },
   {
+    src: "/ramarcha-katha.jpeg",
+    alt: "Ramarcha Katha — Sacred Ram Katha with Decorated Altar",
+    category: "Katha",
+  },
+  {
     src: "/havan-fire-ritual.jpeg",
     alt: "Pandit Ramgopal Ji conducting Havan — Sacred Fire Ritual",
     category: "Havan",
