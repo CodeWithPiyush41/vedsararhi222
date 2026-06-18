@@ -9,6 +9,11 @@ const galleryImages = [
     category: "Puja",
   },
   {
+    src: "/vivah-havan.jpeg",
+    alt: "Vivah Havan — Sacred Fire Ritual during Wedding Ceremony",
+    category: "Wedding",
+  },
+  {
     src: "/satyanarayan-katha.jpeg",
     alt: "Satyanarayan Katha — Live Ceremony by Pandit Ramgopal Ji",
     category: "Katha",
