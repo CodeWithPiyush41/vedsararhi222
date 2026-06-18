@@ -19,6 +19,16 @@ const galleryImages = [
     category: "Puja",
   },
   {
+    src: "/mangla-gauri-pooja.jpeg",
+    alt: "Mangla Gauri Pooja — Auspicious Worship for Newly Married Couples",
+    category: "Puja",
+  },
+  {
+    src: "/mangla-gauri-pooja-2.jpeg",
+    alt: "Mangla Gauri Pooja — Sacred Altar and Ceremony Setup",
+    category: "Puja",
+  },
+  {
     src: "/vivah-havan.jpeg",
     alt: "Chaturmas Havan — Sacred Fire Ritual by Pandit Ramgopal Ji",
     category: "Havan",
