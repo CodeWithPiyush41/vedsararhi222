@@ -63,6 +63,11 @@ const galleryImages = [
     alt: "Baba Shyam Kirtan Havan — Sacred Kirtan Fire Ritual",
     category: "Havan",
   },
+  {
+    src: "/vastu-shanti-havan.jpeg",
+    alt: "Vastu Shanti Havan — Home Purification Fire Ritual",
+    category: "Havan",
+  },
 ];
 
 const categories = ["All", "Puja", "Wedding", "Katha", "Havan"];
