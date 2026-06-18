@@ -73,9 +73,14 @@ const galleryImages = [
     alt: "Vastu Shanti Havan — Home Purification Fire Ritual",
     category: "Havan",
   },
+  {
+    src: "/namkaran-ceremony.jpeg",
+    alt: "Namkaran — Sacred Naming Ceremony by Pandit Ramgopal Ji",
+    category: "Namkaran",
+  },
 ];
 
-const categories = ["All", "Puja", "Wedding", "Katha", "Havan"];
+const categories = ["All", "Puja", "Wedding", "Katha", "Havan", "Namkaran"];
 
 export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
