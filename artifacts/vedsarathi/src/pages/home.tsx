@@ -50,7 +50,7 @@ export default function Home() {
                 Book a Puja
               </Button>
             </Link>
-            <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/919883314639" target="_blank" rel="noopener noreferrer">
               <Button size="lg" variant="outline" className="text-lg px-8 h-14 border-primary text-primary hover:bg-primary/10 gap-2">
                 <FaWhatsapp className="w-5 h-5" /> Contact on WhatsApp
               </Button>
@@ -227,7 +227,7 @@ export default function Home() {
                 Schedule a Consultation
               </Button>
             </Link>
-            <a href="tel:+919876543210">
+            <a href="tel:+919883314639">
               <Button size="lg" variant="outline" className="border-background text-background hover:bg-background/10 text-lg px-8 h-14 gap-2">
                 <Phone className="w-5 h-5" /> Call Now
               </Button>

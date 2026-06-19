@@ -72,7 +72,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg text-foreground">Phone</h3>
-                  <p className="text-muted-foreground">+91 98765 43210</p>
+                  <p className="text-muted-foreground">+91 98833 14639</p>
                 </div>
               </div>
               
@@ -82,8 +82,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg text-foreground">WhatsApp</h3>
-                  <p className="text-muted-foreground">+91 98765 43210</p>
-                  <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="text-primary text-sm hover:underline">
+                  <p className="text-muted-foreground">+91 98833 14639</p>
+                  <a href="https://wa.me/919883314639" target="_blank" rel="noopener noreferrer" className="text-primary text-sm hover:underline">
                     Chat with us →
                   </a>
                 </div>
@@ -156,7 +156,7 @@ export default function Contact() {
                       <FormItem>
                         <FormLabel>Phone Number *</FormLabel>
                         <FormControl>
-                          <Input placeholder="+91 98765 43210" {...field} />
+                          <Input placeholder="+91 98833 14639" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
