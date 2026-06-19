@@ -2,8 +2,9 @@ import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Star, ShieldCheck, Clock, MapPin, ChevronRight, Phone } from "lucide-react";
+import { ShieldCheck, Clock, MapPin, ChevronRight, Phone, Flame, Home as HomeIcon, Baby, Heart } from "lucide-react";
 import { FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { Play } from "lucide-react";
 
 export default function Home() {
   return (
@@ -130,19 +131,18 @@ export default function Home() {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12">
             Authentic Vedic ceremonies performed with proper rituals, mantras, and devotion to bring auspiciousness to your special moments.
           </p>
-          
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: "Vivah Sanskar", desc: "Traditional Vedic wedding ceremonies with complete rituals.", img: "https://images.unsplash.com/photo-1583089892943-e02e5b017b6a?auto=format&fit=crop&q=80" },
-              { title: "Griha Pravesh", desc: "Purify and bless your new home with Vastu Shanti and Havan.", img: "https://images.unsplash.com/photo-1605371924599-2d0365da26f5?auto=format&fit=crop&q=80" },
-              { title: "Namkaran Sanskar", desc: "Auspicious naming ceremony for newborns based on astrology.", img: "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?auto=format&fit=crop&q=80" },
-              { title: "Havan & Yagya", desc: "Sacred fire rituals for peace, prosperity, and spiritual growth.", img: "https://images.unsplash.com/photo-1603525167098-b80c6c70b809?auto=format&fit=crop&q=80" }
+              { title: "Vivah Sanskar", desc: "Traditional Vedic wedding ceremonies with complete rituals.", icon: Heart },
+              { title: "Griha Pravesh", desc: "Purify and bless your new home with Vastu Shanti and Havan.", icon: HomeIcon },
+              { title: "Namkaran Sanskar", desc: "Auspicious naming ceremony for newborns based on astrology.", icon: Baby },
+              { title: "Havan & Yagya", desc: "Sacred fire rituals for peace, prosperity, and spiritual growth.", icon: Flame },
             ].map((service, i) => (
-              <Card key={i} className="group overflow-hidden border-border bg-card hover:shadow-xl transition-all duration-300">
-                <div className="aspect-[4/3] overflow-hidden">
-                  <img src={service.img} alt={service.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-                </div>
-                <CardContent className="p-6 text-left">
+              <Card key={i} className="group border-border bg-card hover:shadow-xl transition-all duration-300">
+                <CardContent className="p-8 text-left">
+                  <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-5 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+                    <service.icon className="w-7 h-7" />
+                  </div>
                   <h3 className="text-xl font-serif font-bold text-foreground mb-2">{service.title}</h3>
                   <p className="text-muted-foreground text-sm mb-4">{service.desc}</p>
                   <Link href="/services" className="text-primary font-medium text-sm flex items-center hover:underline">
@@ -160,7 +160,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* YouTube Section Placeholder */}
+      {/* YouTube Section */}
       <section className="py-20 bg-background border-t border-border">
         <div className="container px-4">
           <div className="flex flex-col md:flex-row items-center justify-between mb-12">
@@ -168,21 +168,47 @@ export default function Home() {
               <h2 className="text-4xl font-serif font-bold text-foreground mb-2">VedSarathi on YouTube</h2>
               <p className="text-muted-foreground">Watch our latest videos on Vedic rituals and Sanatan Dharma.</p>
             </div>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="mt-4 md:mt-0">
-              <Button variant="outline" className="border-red-600 text-red-600 hover:bg-red-50">
-                <FaYoutube className="mr-2" /> Subscribe Channel
+            <a href="https://youtube.com/@VedSarathi" target="_blank" rel="noopener noreferrer" className="mt-4 md:mt-0">
+              <Button variant="outline" className="border-red-600 text-red-600 hover:bg-red-50 gap-2">
+                <FaYoutube className="w-5 h-5" /> Subscribe Channel
               </Button>
             </a>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
-            {[1, 2, 3].map((i) => (
-              <div key={i} className="aspect-video bg-muted rounded-lg flex items-center justify-center shadow-md relative group cursor-pointer overflow-hidden">
-                <img src={`https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=800`} alt="Video thumbnail" className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity" />
-                <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center text-white relative z-10 group-hover:scale-110 transition-transform shadow-lg">
-                  <FaYoutube className="w-8 h-8" />
+            {[
+              { id: "BmcNXEpYGvE", title: "Shree Mad Bhagwat Katha" },
+              { id: "aUEcnV05wQY", title: "Sundarkand — Sacred Recitation" },
+              { id: "7sBY7T3wTIc", title: "Navaratri Pujan — Jai Mata Di" },
+            ].map((video) => (
+              <a
+                key={video.id}
+                href={`https://www.youtube.com/watch?v=${video.id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group"
+              >
+                <div className="relative aspect-video rounded-xl overflow-hidden shadow-md cursor-pointer">
+                  <img
+                    src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
+                    alt={video.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors flex items-center justify-center">
+                    <div className="w-14 h-14 bg-red-600 rounded-full flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
+                      <Play className="w-6 h-6 text-white ml-1" fill="white" />
+                    </div>
+                  </div>
                 </div>
-              </div>
+                <p className="mt-3 font-medium text-foreground group-hover:text-primary transition-colors text-sm">{video.title}</p>
+              </a>
             ))}
+          </div>
+          <div className="text-center mt-10">
+            <Link href="/youtube">
+              <Button variant="outline" className="border-red-600 text-red-600 hover:bg-red-50 gap-2">
+                <FaYoutube className="w-5 h-5" /> View All Videos
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
