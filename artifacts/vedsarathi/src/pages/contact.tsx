@@ -34,13 +34,38 @@ export default function Contact() {
     },
   });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
-    toast({
-      title: "Request Submitted Successfully",
-      description: "Pandit Ji will contact you shortly to confirm the details.",
-    });
-    form.reset();
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    try {
+      const formData = new FormData();
+      formData.append("access_key", "fa261c3d-41a9-476a-b786-1c63b321aaee");
+      formData.append("name", values.name);
+      formData.append("email", values.email || "");
+      formData.append("phone", values.phone);
+      formData.append("service", values.service);
+      formData.append("date", values.date || "");
+      formData.append("message", values.message || "");
+      
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+      
+      if (response.ok) {
+        toast({
+          title: "Request Submitted Successfully",
+          description: "Pandit Ji will contact you shortly to confirm the details.",
+        });
+        form.reset();
+      } else {
+        throw new Error("Failed to submit form");
+      }
+    } catch (error) {
+      toast({
+        title: "Something went wrong",
+        description: "Please try again later.",
+        variant: "destructive",
+      });
+    }
   }
 
   return (
