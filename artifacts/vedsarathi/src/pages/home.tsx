@@ -11,7 +11,7 @@ export default function Home() {
     <div className="w-full">
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-muted/30">
-        <div className="absolute inset-0 z-0 opacity-40 bg-[url('https://images.unsplash.com/photo-1620000617482-821324eb9a14?auto=format&fit=crop&q=80')] bg-cover bg-center" />
+        <div className="absolute inset-0 z-0 opacity-40 bg-[url('/hero-bg.jpg')] bg-cover bg-center" />
         <div className="absolute inset-0 z-0 bg-gradient-to-b from-background/90 via-background/60 to-background/90" />
         
         <div className="container relative z-10 px-4 py-20 md:py-32 flex flex-col items-center text-center">
