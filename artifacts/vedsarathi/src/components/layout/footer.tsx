@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="bg-card text-card-foreground border-t border-border pt-16 pb-8">
+    <footer className="bg-card text-card-foreground border-t border-border pt-16 pb-24 md:pb-8">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
@@ -81,6 +81,17 @@ export function Footer() {
             <a href="#" className="hover:text-primary">Privacy Policy</a>
             <a href="#" className="hover:text-primary">Terms of Service</a>
           </div>
+        </div>
+
+        <div className="mt-4 text-center">
+          <a
+            href="https://panchariyalabs.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-muted-foreground hover:text-primary transition-colors"
+          >
+            Handcrafted by PanchariyaLabs
+          </a>
         </div>
       </div>
     </footer>
