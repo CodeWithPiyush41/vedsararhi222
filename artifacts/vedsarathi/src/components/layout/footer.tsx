@@ -61,7 +61,7 @@ export function Footer() {
             </div>
             <div className="flex items-start gap-3 text-muted-foreground">
               <Mail className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-              <p>info@vedsarathi.com</p>
+              <p>vedsarathi28@gmail.com</p>
             </div>
             <div className="flex items-start gap-3 text-muted-foreground">
               <MapPin className="w-5 h-5 text-primary shrink-0 mt-0.5" />
