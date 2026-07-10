@@ -85,7 +85,7 @@ export function Footer() {
 
         <div className="mt-4 text-center">
           <a
-            href="https://panchariyalabs.vercel.app/"
+            href="https://panchariyalab.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-muted-foreground hover:text-primary transition-colors"
